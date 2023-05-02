@@ -1,0 +1,4 @@
+        const[voteCount, setVoteCount] = useState(0);
+
+        let newVoteCount = voteCount + 1;
+        setVoteCount(newVoteCount);
